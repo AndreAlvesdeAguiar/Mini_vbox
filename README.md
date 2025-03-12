@@ -66,7 +66,7 @@ Este projeto utiliza um **ESP32** para:
 
 ## Conexões
 
-### 🖥 OLED (SSD1306)
+### OLED (SSD1306)
 - **VCC** → 3.3V do ESP32  
 - **GND** → GND do ESP32  
 - **SDA** → GPIO 21 (padrão SDA no ESP32)  
