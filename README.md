@@ -106,4 +106,40 @@ Este projeto utiliza um **ESP32** para:
 
 ## Exemplos de Requisições
 
-- **Obter valor do MQ135**  
+- **Obter valor do MQ135**
+
+GET http://192.168.0.10/mq135
+
+Resposta: { "mq135": 374 }
+
+- **Obter temperatura e umidade**
+
+  GET http://192.168.0.10/aht10
+
+Resposta: { "temperature": 30.48, "humidity": 58.52 }
+
+- **Ligar LED verde**
+
+GET http://192.168.0.10/green/on
+
+Resposta: { "green":"on" }
+
+
+---
+
+## Dependências
+
+- [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)
+- [Adafruit SSD1306 Library](https://github.com/adafruit/Adafruit_SSD1306)
+- [Adafruit AHTX0 Library](https://github.com/adafruit/Adafruit_AHT10)
+- [Arduino Core for ESP32](https://github.com/espressif/arduino-esp32)  
+- (Opcional) Versão recente do [Arduino IDE](https://www.arduino.cc/en/software) ou do [PlatformIO](https://platformio.org).
+
+---
+
+## Licença
+
+Este projeto pode ser licenciado sob a licença [MIT License](https://opensource.org/licenses/MIT) ou outra de sua preferência. Sinta-se à vontade para usar, modificar e distribuir conforme necessário.
+
+
+
