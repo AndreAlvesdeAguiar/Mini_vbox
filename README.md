@@ -1,6 +1,6 @@
 # Medidor de Qualidade do Ar com ESP32, MQ135, AHT10 e Display OLED
 
-## 📷 Fotos do Projeto
+## Fotos do Projeto
 
 ### Protótipo em Funcionamento
 ![Medidor de Qualidade do Ar](./Imagem_mini_vbox_protótipo.jpeg)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 Descrição
+## Descrição
 
 Este projeto utiliza um **ESP32** para:
 - Medir **qualidade do ar** usando o sensor **MQ135**.
@@ -33,7 +33,7 @@ Este projeto utiliza um **ESP32** para:
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 1. **Display OLED (128×64)**  
    - Mostra, em tempo real, o valor lido do MQ135 (rotulado como “Co2” no display), temperatura e umidade.
@@ -52,7 +52,7 @@ Este projeto utiliza um **ESP32** para:
 
 ---
 
-## 🔩 Componentes Utilizados
+## Componentes Utilizados
 
 - **ESP32 DevKit** (ou placa equivalente)
 - **Sensor MQ135** (qualidade do ar)
@@ -64,7 +64,7 @@ Este projeto utiliza um **ESP32** para:
 
 ---
 
-## 🔌 Conexões
+## Conexões
 
 ### 🖥 OLED (SSD1306)
 - **VCC** → 3.3V do ESP32  
@@ -72,18 +72,18 @@ Este projeto utiliza um **ESP32** para:
 - **SDA** → GPIO 21 (padrão SDA no ESP32)  
 - **SCL** → GPIO 22 (padrão SCL no ESP32)
 
-### 🌡️ AHT10
+### AHT10
 - **VCC** → 3.3V do ESP32  
 - **GND** → GND do ESP32  
 - **SDA** → GPIO 21 (em paralelo com o OLED)  
 - **SCL** → GPIO 22 (em paralelo com o OLED)
 
-### 🏭 MQ135
+### MQ135
 - **AO (pino analógico)** → GPIO 34 (entrada analógica do ESP32)  
 - **VCC** → 5V (ou 3.3V, dependendo da versão)  
 - **GND** → GND do ESP32
 
-### 💡 LED RGB
+### LED RGB
 - **Pino Vermelho (R)** → GPIO 25  
 - **Pino Verde (G)** → GPIO 26  
 - **Pino Azul (B)** → GPIO 27  
@@ -92,7 +92,7 @@ Este projeto utiliza um **ESP32** para:
 
 ---
 
-## 🚀 Como Usar
+## Como Usar
 
 1. **Carregue o Código** no ESP32
    - Abra o arquivo `.ino` no [Arduino IDE](https://www.arduino.cc/en/software) ou no PlatformIO.
